@@ -1,5 +1,2 @@
-INSERT INTO "countries" VALUES (1, 'USA');
-INSERT INTO "countries" VALUES (2, 'France');
-INSERT INTO "countries" VALUES (3, 'Brazil');
-INSERT INTO "countries" VALUES (4, 'Italy');
-INSERT INTO "countries" VALUES (5, 'Canada');
+DROP TABLE URL;
+CREATE TABLE URL(id serial,url varchar(255),ip varchar(255),status varchar(255));
